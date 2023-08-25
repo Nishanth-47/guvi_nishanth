@@ -1,0 +1,79 @@
+.Nav
+{
+    /* background-color: rgb(39, 97, 97); */
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Nav h1
+{
+    font-size: 15px
+}
+.navi_1
+{
+    margin-left: 40%;
+}
+
+.Register_form
+{
+    width: 30vw;
+    padding: 30px;
+    margin: auto;
+    display: none;
+    margin-top: 10%;
+    border-radius: 10PX;
+    background-color: transparent;
+}
+.body{
+    /* background-color: rgb(39, 97, 97); */
+    width: 100%;
+    height: 100vh;
+    margin:20px 80px;
+}
+
+
+.Login_form
+{
+    width: 30vw;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10%;
+    background-color:transparent;
+    border-radius: 10PX;
+}
+
+.update_form{
+
+    width: 30vw;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    border-radius: 15px;
+    /* background-color: rgb(201, 143, 143); */
+}
+.mb-3
+{
+    width:100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+label
+{
+    font-size: 15px;
+}
+
+.profile_div
+{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.profile_body
+{
+    background-color: white;
+}
+

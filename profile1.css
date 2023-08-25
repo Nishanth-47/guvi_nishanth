@@ -1,0 +1,98 @@
+.profile_body
+{
+    /* background-color: aliceblue; */
+    background-image: url("book.jpg");
+    background-size: cover;
+    position: fixed;
+}
+.Nav_all
+{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #0c0464a0;
+    font-weight: bold;
+    font-size: larger;
+    /* margin-left: 5%; */
+
+}
+
+.update_form
+{
+    position: absolute;
+    display:flex;
+    width:60vw;
+    height:70vh;
+    left: 25%;
+    margin-top: 5%;
+}
+.part1
+{
+   width:50%;
+   height:200px;
+  margin:10px;
+  position:flex;
+}
+.form-control
+{
+    width: 20vw !important;
+}
+.profile_image
+{
+    margin-left: 20%;
+    display: flex;
+}
+#profile-im
+{
+    border-radius: 35px;
+}
+.profile_div
+{
+    margin-left: 10px;
+}
+.form-label
+{
+    color:  #a77780;
+    font-weight: bold;
+    font-size: larger;
+}
+.form-control
+{
+    border-radius: 5px !important;
+    border-color: #991B34 !important;
+}
+.btn
+{
+  width: 2cm;
+    height: 1cm;
+
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+.btn::before
+{
+    content: '';
+    width: 0;
+    height: 1cm;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0bb0d9 0%, #11110d 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.btn:hover::before
+{
+    width: 3cm;
+}
